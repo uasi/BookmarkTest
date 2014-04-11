@@ -59,4 +59,23 @@
   self.fileReferenceURLField.stringValue = [[URL fileReferenceURL] absoluteString];
 }
 
+
+- (IBAction)saveBookmark:(id)sender
+{
+  NSSavePanel *panel = [NSSavePanel savePanel];
+  panel.nameFieldStringValue = @"Bookmark";
+  if ([panel runModal] == NSFileHandlingPanelOKButton) {
+    [self.bookmark writeToURL:panel.URL atomically:NO];
+  }
+}
+
+- (IBAction)loadBookmark:(id)sender
+{
+  NSOpenPanel *panel = [NSOpenPanel openPanel];
+  if ([panel runModal] == NSFileHandlingPanelOKButton) {
+    self.bookmark = [NSData dataWithContentsOfURL:panel.URL];
+    [self showResolvedURL:self];
+  }
+}
+
 @end
