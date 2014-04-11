@@ -33,9 +33,7 @@
     NSURLBookmarkCreationOptions options = [[NSBundle mainBundle] ob_isSandboxed] ? NSURLBookmarkCreationWithSecurityScope : 0;
     NSError *error;
     self.bookmark = [panel.URL bookmarkDataWithOptions:options includingResourceValuesForKeys:nil relativeToURL:nil error:&error];
-    if (!self.bookmark) {
-      self.bookmarkErrorField.stringValue = error.description;
-    }
+    self.bookmarkErrorField.stringValue = self.bookmark ? @"" : error.description;
     [self showResolvedURL:self];
   }
 }
@@ -50,7 +48,9 @@
   BOOL isStale;
   NSError *error;
   NSURL *URL = [NSURL URLByResolvingBookmarkData:self.bookmark options:options relativeToURL:nil bookmarkDataIsStale:&isStale error:&error];
-  if (!URL) {
+  if (URL) {
+    self.bookmarkErrorField.stringValue = @"";
+  } else {
     self.bookmarkErrorField.stringValue = error.description;
     self.filePathURLField.stringValue = self.fileReferenceURLField.stringValue = @"(No resolved URL)";
     return;
