@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58560F5E18F7C27100AE098E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58560F5D18F7C27100AE098E /* Cocoa.framework */; };
+		58560F6818F7C27100AE098E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58560F6618F7C27100AE098E /* InfoPlist.strings */; };
+		58560F6A18F7C27100AE098E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58560F6918F7C27100AE098E /* main.m */; };
+		58560F6E18F7C27100AE098E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 58560F6C18F7C27100AE098E /* Credits.rtf */; };
+		58560F7118F7C27100AE098E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58560F7018F7C27100AE098E /* AppDelegate.m */; };
+		58560F7418F7C27100AE098E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58560F7218F7C27100AE098E /* MainMenu.xib */; };
+		58560F7618F7C27100AE098E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58560F7518F7C27100AE098E /* Images.xcassets */; };
+		58560F7D18F7C27100AE098E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58560F7C18F7C27100AE098E /* XCTest.framework */; };
+		58560F7E18F7C27100AE098E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58560F5D18F7C27100AE098E /* Cocoa.framework */; };
+		58560F8618F7C27100AE098E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58560F8418F7C27100AE098E /* InfoPlist.strings */; };
+		58560F8818F7C27100AE098E /* BookmarkTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58560F8718F7C27100AE098E /* BookmarkTestTests.m */; };
+		58560F9318F7C44800AE098E /* NSBundle+OBCodeSigningInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 58560F9218F7C44800AE098E /* NSBundle+OBCodeSigningInfo.m */; };
+		58560FC718F7CBEF00AE098E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58560F7018F7C27100AE098E /* AppDelegate.m */; };
+		58560FC818F7CBEF00AE098E /* NSBundle+OBCodeSigningInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 58560F9218F7C44800AE098E /* NSBundle+OBCodeSigningInfo.m */; };
+		58560FC918F7CBEF00AE098E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58560F6918F7C27100AE098E /* main.m */; };
+		58560FCB18F7CBEF00AE098E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58560F5D18F7C27100AE098E /* Cocoa.framework */; };
+		58560FCD18F7CBEF00AE098E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58560F6618F7C27100AE098E /* InfoPlist.strings */; };
+		58560FCE18F7CBEF00AE098E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58560F7518F7C27100AE098E /* Images.xcassets */; };
+		58560FCF18F7CBEF00AE098E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 58560F6C18F7C27100AE098E /* Credits.rtf */; };
+		58560FD018F7CBEF00AE098E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58560F7218F7C27100AE098E /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58560F7F18F7C27100AE098E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58560F5218F7C27100AE098E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58560F5918F7C27100AE098E;
+			remoteInfo = BookmarkTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58560F5A18F7C27100AE098E /* BookmarkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookmarkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58560F5D18F7C27100AE098E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		58560F6018F7C27100AE098E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		58560F6118F7C27100AE098E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		58560F6218F7C27100AE098E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		58560F6518F7C27100AE098E /* BookmarkTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BookmarkTest-Info.plist"; sourceTree = "<group>"; };
+		58560F6718F7C27100AE098E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58560F6918F7C27100AE098E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58560F6B18F7C27100AE098E /* BookmarkTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BookmarkTest-Prefix.pch"; sourceTree = "<group>"; };
+		58560F6D18F7C27100AE098E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		58560F6F18F7C27100AE098E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58560F7018F7C27100AE098E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		58560F7318F7C27100AE098E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		58560F7518F7C27100AE098E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		58560F7B18F7C27100AE098E /* BookmarkTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookmarkTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58560F7C18F7C27100AE098E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		58560F8318F7C27100AE098E /* BookmarkTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BookmarkTestTests-Info.plist"; sourceTree = "<group>"; };
+		58560F8518F7C27100AE098E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58560F8718F7C27100AE098E /* BookmarkTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookmarkTestTests.m; sourceTree = "<group>"; };
+		58560F9118F7C44800AE098E /* NSBundle+OBCodeSigningInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+OBCodeSigningInfo.h"; sourceTree = "<group>"; };
+		58560F9218F7C44800AE098E /* NSBundle+OBCodeSigningInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+OBCodeSigningInfo.m"; sourceTree = "<group>"; };
+		58560FD418F7CBEF00AE098E /* BookmarkTestSandboxed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookmarkTestSandboxed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58560FD618F7CC4700AE098E /* BookmarkTestSandboxed.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = BookmarkTestSandboxed.entitlements; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58560F5718F7C27100AE098E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58560F5E18F7C27100AE098E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58560F7818F7C27100AE098E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58560F7E18F7C27100AE098E /* Cocoa.framework in Frameworks */,
+				58560F7D18F7C27100AE098E /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58560FCA18F7CBEF00AE098E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58560FCB18F7CBEF00AE098E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58560F5118F7C27100AE098E = {
+			isa = PBXGroup;
+			children = (
+				58560F6318F7C27100AE098E /* BookmarkTest */,
+				58560F8118F7C27100AE098E /* BookmarkTestTests */,
+				58560F5C18F7C27100AE098E /* Frameworks */,
+				58560F5B18F7C27100AE098E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58560F5B18F7C27100AE098E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58560F5A18F7C27100AE098E /* BookmarkTest.app */,
+				58560F7B18F7C27100AE098E /* BookmarkTestTests.xctest */,
+				58560FD418F7CBEF00AE098E /* BookmarkTestSandboxed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58560F5C18F7C27100AE098E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58560F5D18F7C27100AE098E /* Cocoa.framework */,
+				58560F7C18F7C27100AE098E /* XCTest.framework */,
+				58560F5F18F7C27100AE098E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58560F5F18F7C27100AE098E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58560F6018F7C27100AE098E /* AppKit.framework */,
+				58560F6118F7C27100AE098E /* CoreData.framework */,
+				58560F6218F7C27100AE098E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		58560F6318F7C27100AE098E /* BookmarkTest */ = {
+			isa = PBXGroup;
+			children = (
+				58560F9118F7C44800AE098E /* NSBundle+OBCodeSigningInfo.h */,
+				58560F9218F7C44800AE098E /* NSBundle+OBCodeSigningInfo.m */,
+				58560F6F18F7C27100AE098E /* AppDelegate.h */,
+				58560F7018F7C27100AE098E /* AppDelegate.m */,
+				58560F7218F7C27100AE098E /* MainMenu.xib */,
+				58560F7518F7C27100AE098E /* Images.xcassets */,
+				58560F6418F7C27100AE098E /* Supporting Files */,
+			);
+			path = BookmarkTest;
+			sourceTree = "<group>";
+		};
+		58560F6418F7C27100AE098E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58560FD618F7CC4700AE098E /* BookmarkTestSandboxed.entitlements */,
+				58560F6518F7C27100AE098E /* BookmarkTest-Info.plist */,
+				58560F6618F7C27100AE098E /* InfoPlist.strings */,
+				58560F6918F7C27100AE098E /* main.m */,
+				58560F6B18F7C27100AE098E /* BookmarkTest-Prefix.pch */,
+				58560F6C18F7C27100AE098E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58560F8118F7C27100AE098E /* BookmarkTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				58560F8718F7C27100AE098E /* BookmarkTestTests.m */,
+				58560F8218F7C27100AE098E /* Supporting Files */,
+			);
+			path = BookmarkTestTests;
+			sourceTree = "<group>";
+		};
+		58560F8218F7C27100AE098E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58560F8318F7C27100AE098E /* BookmarkTestTests-Info.plist */,
+				58560F8418F7C27100AE098E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58560F5918F7C27100AE098E /* BookmarkTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58560F8B18F7C27100AE098E /* Build configuration list for PBXNativeTarget "BookmarkTest" */;
+			buildPhases = (
+				58560F5618F7C27100AE098E /* Sources */,
+				58560F5718F7C27100AE098E /* Frameworks */,
+				58560F5818F7C27100AE098E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookmarkTest;
+			productName = BookmarkTest;
+			productReference = 58560F5A18F7C27100AE098E /* BookmarkTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58560F7A18F7C27100AE098E /* BookmarkTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58560F8E18F7C27100AE098E /* Build configuration list for PBXNativeTarget "BookmarkTestTests" */;
+			buildPhases = (
+				58560F7718F7C27100AE098E /* Sources */,
+				58560F7818F7C27100AE098E /* Frameworks */,
+				58560F7918F7C27100AE098E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58560F8018F7C27100AE098E /* PBXTargetDependency */,
+			);
+			name = BookmarkTestTests;
+			productName = BookmarkTestTests;
+			productReference = 58560F7B18F7C27100AE098E /* BookmarkTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58560FC518F7CBEF00AE098E /* BookmarkTestSandboxed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58560FD118F7CBEF00AE098E /* Build configuration list for PBXNativeTarget "BookmarkTestSandboxed" */;
+			buildPhases = (
+				58560FC618F7CBEF00AE098E /* Sources */,
+				58560FCA18F7CBEF00AE098E /* Frameworks */,
+				58560FCC18F7CBEF00AE098E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookmarkTestSandboxed;
+			productName = BookmarkTest;
+			productReference = 58560FD418F7CBEF00AE098E /* BookmarkTestSandboxed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58560F5218F7C27100AE098E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = exsen.org;
+				TargetAttributes = {
+					58560F5918F7C27100AE098E = {
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					58560F7A18F7C27100AE098E = {
+						TestTargetID = 58560F5918F7C27100AE098E;
+					};
+					58560FC518F7CBEF00AE098E = {
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 58560F5518F7C27100AE098E /* Build configuration list for PBXProject "BookmarkTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58560F5118F7C27100AE098E;
+			productRefGroup = 58560F5B18F7C27100AE098E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58560F5918F7C27100AE098E /* BookmarkTest */,
+				58560FC518F7CBEF00AE098E /* BookmarkTestSandboxed */,
+				58560F7A18F7C27100AE098E /* BookmarkTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58560F5818F7C27100AE098E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58560F6818F7C27100AE098E /* InfoPlist.strings in Resources */,
+				58560F7618F7C27100AE098E /* Images.xcassets in Resources */,
+				58560F6E18F7C27100AE098E /* Credits.rtf in Resources */,
+				58560F7418F7C27100AE098E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58560F7918F7C27100AE098E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58560F8618F7C27100AE098E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58560FCC18F7CBEF00AE098E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58560FCD18F7CBEF00AE098E /* InfoPlist.strings in Resources */,
+				58560FCE18F7CBEF00AE098E /* Images.xcassets in Resources */,
+				58560FCF18F7CBEF00AE098E /* Credits.rtf in Resources */,
+				58560FD018F7CBEF00AE098E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58560F5618F7C27100AE098E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58560F7118F7C27100AE098E /* AppDelegate.m in Sources */,
+				58560F9318F7C44800AE098E /* NSBundle+OBCodeSigningInfo.m in Sources */,
+				58560F6A18F7C27100AE098E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58560F7718F7C27100AE098E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58560F8818F7C27100AE098E /* BookmarkTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58560FC618F7CBEF00AE098E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58560FC718F7CBEF00AE098E /* AppDelegate.m in Sources */,
+				58560FC818F7CBEF00AE098E /* NSBundle+OBCodeSigningInfo.m in Sources */,
+				58560FC918F7CBEF00AE098E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58560F8018F7C27100AE098E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58560F5918F7C27100AE098E /* BookmarkTest */;
+			targetProxy = 58560F7F18F7C27100AE098E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58560F6618F7C27100AE098E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58560F6718F7C27100AE098E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		58560F6C18F7C27100AE098E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58560F6D18F7C27100AE098E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		58560F7218F7C27100AE098E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58560F7318F7C27100AE098E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		58560F8418F7C27100AE098E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58560F8518F7C27100AE098E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58560F8918F7C27100AE098E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		58560F8A18F7C27100AE098E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		58560F8C18F7C27100AE098E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookmarkTest/BookmarkTest-Prefix.pch";
+				INFOPLIST_FILE = "BookmarkTest/BookmarkTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		58560F8D18F7C27100AE098E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookmarkTest/BookmarkTest-Prefix.pch";
+				INFOPLIST_FILE = "BookmarkTest/BookmarkTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		58560F8F18F7C27100AE098E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BookmarkTest.app/Contents/MacOS/BookmarkTest";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookmarkTest/BookmarkTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BookmarkTestTests/BookmarkTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		58560F9018F7C27100AE098E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BookmarkTest.app/Contents/MacOS/BookmarkTest";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookmarkTest/BookmarkTest-Prefix.pch";
+				INFOPLIST_FILE = "BookmarkTestTests/BookmarkTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		58560FD218F7CBEF00AE098E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BookmarkTestSandboxed.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookmarkTest/BookmarkTest-Prefix.pch";
+				INFOPLIST_FILE = "BookmarkTest/BookmarkTest-Info.plist";
+				PRODUCT_NAME = BookmarkTestSandboxed;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		58560FD318F7CBEF00AE098E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BookmarkTestSandboxed.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookmarkTest/BookmarkTest-Prefix.pch";
+				INFOPLIST_FILE = "BookmarkTest/BookmarkTest-Info.plist";
+				PRODUCT_NAME = BookmarkTestSandboxed;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58560F5518F7C27100AE098E /* Build configuration list for PBXProject "BookmarkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58560F8918F7C27100AE098E /* Debug */,
+				58560F8A18F7C27100AE098E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58560F8B18F7C27100AE098E /* Build configuration list for PBXNativeTarget "BookmarkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58560F8C18F7C27100AE098E /* Debug */,
+				58560F8D18F7C27100AE098E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58560F8E18F7C27100AE098E /* Build configuration list for PBXNativeTarget "BookmarkTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58560F8F18F7C27100AE098E /* Debug */,
+				58560F9018F7C27100AE098E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58560FD118F7CBEF00AE098E /* Build configuration list for PBXNativeTarget "BookmarkTestSandboxed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58560FD218F7CBEF00AE098E /* Debug */,
+				58560FD318F7CBEF00AE098E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58560F5218F7C27100AE098E /* Project object */;
+}
